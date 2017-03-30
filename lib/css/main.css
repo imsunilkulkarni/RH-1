@@ -1,0 +1,112 @@
+img{
+    width:100%;
+    height:100%;
+}
+/* X-Small Devices */
+@media (max-width: 767px) {
+    h1{
+        font-size: large;
+    }
+}
+/* Small Devices */
+@media (min-width: 768px) {
+	h1{
+        font-size: large;
+    }
+}
+
+/* Medium Devices */ 
+@media (min-width: 992px){
+	h1{
+        font-size: 32px;
+    }
+    .paddinglg0{
+        padding: 0;
+    }
+    .padding15rlb{
+        padding: 0 15px 15px 15px;
+    }
+}
+
+/* Large Devices */ 
+@media (min-width: 1200px) {
+
+}
+/* Common for all Devices */
+
+/* Common classes Starts*/
+ul{
+    list-style: none;
+}
+.heightAuto{
+    height: auto;
+    overflow: hidden;
+}
+.borderRadius0{
+    border-radius: 0;
+}
+.fontclrWht{
+    color: #fff;
+}
+.bgcolorBlk, .navbar-default .navbar-toggle .icon-bar{
+    background-color: #000;  
+}
+.bgColorOrange{
+    background: #E58817 !important;
+}
+.marginTop15{
+    margin-top: 15px;
+}
+.marginTop25{
+    margin-top: 25px;
+}
+.marginBottom15{
+    margin-bottom: 15px;
+}
+.card-1{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.defaultBtn{
+    border:0;
+    background: none;
+}
+/* Common classes Ends*/
+.navbar-brand{
+        height: auto;  
+    }
+.navbar.navbar-default{
+        background: #000;
+        border-color: #000;  
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle {
+    background-color: #fff;
+}
+button.navbar-toggle{
+    margin-top: 18px;
+    margin-right: 0;
+}
+.subscribeBoxBtn{
+    border: medium none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    height: 40px;
+    width: 100%;
+}
+.recent_postBox{
+    border: 1px solid hsl(0, 0%, 80%);
+}
+.latestNewsBox ul li {
+    display: inline-block;
+    padding-right: 7px;
+}
+.latestNewsBox ul li.social_link{
+    width: 60px;
+}

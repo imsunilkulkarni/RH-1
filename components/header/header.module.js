@@ -1,0 +1,1 @@
+var RhHeader = angular.module('RhHeader',[]);

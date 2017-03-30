@@ -1,0 +1,1 @@
+var mainContainer = angular.module('mainContainer',[]);
